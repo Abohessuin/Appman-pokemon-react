@@ -59,7 +59,7 @@ const Header = styled(motion.div)`
   overflow: hidden;
   font-size: 2rem;
   font-weight: 800;
-  z-index: 0;
+  z-index: 1
 `;
 
 export default Mypokedex;

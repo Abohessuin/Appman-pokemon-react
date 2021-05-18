@@ -130,15 +130,15 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   padding: 0.6rem 0.8rem;
-  background-color: f3f4f7;
+  background-color: #f3f4f7;
   margin-right: 1rem;
   margin-top: 1rem;
-  box-shadow: 1px 1px 1px #c7c6c6;
+  box-shadow: 2.5px 2.5px 2.5px #d5d6dc;
   position: relative;
   overflow: hidden;
   &:hover {
     z-index: 1;
-    box-shadow: 3px 3px 3px #c7c6c6;
+    box-shadow: 3px 3px 3px #aeaeae;
     .Close {
       display: inline;
     }
@@ -151,11 +151,10 @@ const Container = styled.div`
     color: #ec5656;
     display: none;
     cursor: pointer;
-    z-index: -1;
+
   }
 `;
 const Img = styled.div`
-  z-index: -1;
   width: 50%;
   overflow: hidden;
   width: 9rem;
@@ -169,7 +168,7 @@ const Img = styled.div`
 const Pockemondetails = styled.div`
   display: flex;
   align-items: center;
-  z-index: -1;
+
 `;
 const Details = styled.div`
   width: 50%;
@@ -180,13 +179,13 @@ const Details = styled.div`
     font-size: 1.8rem;
     // font-family:
   }
-  z-index: -1;
+ 
 `;
 const Ability = styled.div`
   h4 {
     padding: 0.4rem 0rem;
     font-weight: 800;
-    z-index: -1;
+  
   }
 `;
 const Values = styled.div`
@@ -196,7 +195,7 @@ const Values = styled.div`
   justify-content: space-around;
   align-items: center;
   padding: 0rem 0.9rem;
-  z-index: -1;
+  
 `;
 const Hp = styled.div`
   width: 10rem;
@@ -209,7 +208,7 @@ const Hp = styled.div`
     width: ${(props) => props.percentage + "%"};
     height: 100%;
   }
-  z-index: -1;
+
 `;
 const Str = styled.div`
   width: 10rem;
@@ -222,7 +221,7 @@ const Str = styled.div`
     width: ${(props) => props.percentage + "%"};
     height: 100%;
   }
-  z-index: -1;
+  
 `;
 const Weak = styled.div`
   width: 10rem;
@@ -236,7 +235,7 @@ const Weak = styled.div`
     width: ${(props) => props.percentage + "%"};
     height: 100%;
   }
-  z-index: -1;
+
 `;
 const Happinesslevel = styled.div`
   display: flex;
@@ -250,6 +249,6 @@ const Happinesslevel = styled.div`
     height: 100%;
     object-fit: cover;
   }
-  z-index: -1;
+  
 `;
 export default Card;

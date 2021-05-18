@@ -74,7 +74,7 @@ const Board = styled(motion.div)`
   overflow: auto;
   background: rgba(0, 0, 0, 0.5);
   position: fixed;
-  z-index: 2;
+  z-index: 20 !important;
   top: 0;
   left: 0;
 `;
